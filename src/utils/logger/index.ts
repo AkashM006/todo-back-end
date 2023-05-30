@@ -7,8 +7,8 @@ const rotation: DailyRotateFile = new DailyRotateFile({
   filename: "app-%DATE%.log",
   datePattern: "YYYY-MM-DD-HH",
   zippedArchive: true,
-  maxSize: "20m",
-  maxFiles: "14d",
+  maxSize: "10m",
+  maxFiles: "30d",
   dirname: "logs",
 });
 
